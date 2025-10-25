@@ -13,20 +13,6 @@ The **Quantum Graph Hash (QGH_256)** is a novel **quantum cryptographic hash fun
 
 ##  Methodology
 
-### Conceptual Process Flow
-
-The QGH process is built as a **three-stage pipeline**:
-
-1. **Message → Classical Random Walker**  
-   → Produces a **weighted graph** (4x4 grid, 16 nodes)
-2. **Weighted Graph → Laplacian Matrix**  
-   → Converted into a **Hermitian operator**
-3. **Hermitian Operator → Spectral Fingerprint**  
-   → Extracted using **Quantum Phase Estimation (QPE)**  
-   → Resulting spectrum is used as the **hash**
-
----
-
 ### 1 Classical Random Walks
 - A **message-induced 2D random walk** is performed on a **4×4 grid**.  
 - Each move affects the **edge weights** and **node connectivity**, encoding message entropy.
