@@ -32,7 +32,7 @@ for more information, kindly refer to the presentation ppt attached
 
 ##  Content 
 This repository includes the following files:
-1) main.py – The implementation of the .
+1) main.py – The implementation of the QGH_256
 2) QGH_256.ipynb – A Jupyter Notebook containing the main code, along with testing procedures and result analysis.
 3) Presentation (QGH_256).pdf – A presentation providing an overview and conceptual explanation of the idea.
 4) Video Explanation (QGH_256).mp4 – A video walkthrough of the concept and implementation.
