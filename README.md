@@ -29,6 +29,18 @@ The **Quantum Graph Hash (QGH_256)** is a novel **quantum cryptographic hash fun
 for more information, kindly refer to the presentation ppt attached
 
 
+
+##  Content 
+This repository includes the following files:
+1) main.py – The implementation of the .
+2) QGH_256.ipynb – A Jupyter Notebook containing the main code, along with testing procedures and result analysis.
+3) Presentation (QGH_256).pdf – A presentation providing an overview and conceptual explanation of the idea.
+4) Video Explanation (QGH_256).mp4 – A video walkthrough of the concept and implementation.
+     - Youtube link :- https://youtu.be/03S2Khxl8HE
+6) LICENSE – The MIT License governing the usage and distribution of this project.
+
+   
+
 ##  Installation
 
 ###  Requirements
@@ -46,5 +58,5 @@ pip install qiskit qiskit-aer qiskit-algorithms numpy networkx matplotlib scipy 
 If you use this work, please cite:
 
 Mohana Priya Thinesh Kumar, Pranavishvar Hariprakash,
-Quantum Graph Hash (QGH_256): Spectral Fingerprinting via Quantum Phase Estimation,
+Quantum Graph Hash (QGH_256),
 IIT(ISM) Dhanbad, 2025.
